@@ -275,9 +275,23 @@ footer{
     margin-top: 4rem;
 }
 
+@media only screen and (max-width:720px){
+    .page-title{
+        margin-left: 2rem ;
+        padding: 0.5rem;
+    }
+}
+
 .mani-header{
     border: 5px solid #4a2c2a;
     padding-left: 4rem;
+}
+
+@media only screen and (max-width:720px){
+    .mani-header{
+        padding-left: 0;
+        border: 1px solid #4a2c2a;
+    }
 }
 
 .manifesto-body p{
@@ -287,9 +301,14 @@ footer{
 }
 
 .mani-text{
-    /* border: 1px solid red; */
     font-size: 200%;
     font-weight: 200;
-    /* padding-top: 3rem; */
     padding-bottom: 8rem;
+}
+
+@media only screen and (max-width:720px){
+    .manifesto-body p{
+        width: 95%;
+        font-size: 100%;
+    }
 }

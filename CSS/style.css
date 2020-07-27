@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    color: #ff8a00;
 }
 
 h1{
@@ -43,12 +44,15 @@ a{
 
 .home-container{
     min-height: 100vh;
+    height: autp;
     padding: 3rem;
+    /* border: 6px solid black; */
 }
 
 .page-header{
     width: 100%;
     display: flex;
+    /* border: 3px solid red; */
 }
 
 .nav-header{
@@ -64,7 +68,11 @@ a{
 
 .page-nav ul li{
     display: inline-block;
-    padding: 0 2rem;
+    padding: 0 1rem;
+}
+
+.page-nav a{
+    color: black;
 }
 
 .page-nav ul li:first-child{
@@ -72,6 +80,66 @@ a{
     font-weight: bolder;
 }
 
+
+
 .page-nav a:hover{
     text-decoration: underline;
+}
+
+/* homepage banner */
+
+.home-body{
+    /* border: 3px solid red; */
+    height: auto;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.home-banner{
+    /* border: 3px solid black; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.banner-text{
+    /* border: 3px solid black; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3rem;
+}
+
+.banner-text p{
+    margin: 1rem 0;
+    color: black;
+}
+
+.banner-text button{
+    background-color:#ff8a00;
+    border: 1px solid #ff8a00;
+    color: #fff;
+    width: 20%;
+    margin: 2rem auto;
+    padding: 0.8rem 2rem;
+    display: block;
+}
+
+.banner-text button:hover {
+    background-color:#4a2c2a;
+    border: 1px solid #4a2c2a;
+}
+
+.banner-image{
+    /* border: 3px solid black; */
+    height: 100%;
+    width: 50%;
+}
+
+.banner-image img{
+    width: 100%;
+    height: 100%;
 }

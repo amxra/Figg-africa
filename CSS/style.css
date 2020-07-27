@@ -36,14 +36,15 @@ a{
     text-decoration: none;
 }
 
-
+main{
+    min-height: 100vh;
+}
 
 /* Home page */
 
-.home-container{
+.home-container, .mani-container{
     min-height: 100vh;
-    height: autp;
-    /* border: 6px solid black; */
+    height: auto;
     font-family:'Lato',sans-serif;
 }
 
@@ -67,8 +68,14 @@ a{
 
 .nav-header h1{
     color: #ff8a00;
-    font-weight: lighter;
+    font-weight: 300;
     font-size: 3rem;
+}
+
+@media only screen and (max-width:720px){
+    .nav-header h1{
+        margin-left: 1rem;
+    }
 }
 
 .page-nav{
@@ -245,4 +252,44 @@ footer{
     padding: 3rem;
     text-align: center;
     color: #c8c8c8;
+}
+
+
+/* Manifesto */
+
+.manifesto-body{
+    background-color: #4a2c2a;
+    margin-top: 1rem;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page-title{
+    margin-bottom: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #ff8a00;
+    border-left: 3px solid #ff8a00;
+    padding: 2rem ;
+    margin: 2rem;
+    margin-top: 4rem;
+}
+
+.mani-header{
+    border: 5px solid #4a2c2a;
+    padding-left: 4rem;
+}
+
+.manifesto-body p{
+    width: 70%;
+    margin: 2rem auto;
+    margin-bottom: 3rem;
+}
+
+.mani-text{
+    /* border: 1px solid red; */
+    font-size: 200%;
+    font-weight: 200;
+    /* padding-top: 3rem; */
+    padding-bottom: 8rem;
 }

@@ -52,8 +52,8 @@ main{
     width: 100%;
     display: flex;
     /* border: 3px solid red; */
-    padding: 3rem;
-    padding-bottom: 0;
+    padding: 0.5rem 3rem;
+    /* padding-bottom: 0; */
 }
 
 @media only screen and (max-width:720px){
@@ -70,6 +70,7 @@ main{
     color: #ff8a00;
     font-weight: 300;
     font-size: 3rem;
+    font-family:'Lato',sans-serif; 
 }
 
 @media only screen and (max-width:720px){
@@ -311,4 +312,91 @@ footer{
         width: 95%;
         font-size: 100%;
     }
+}
+
+
+/* Terms */
+
+.terms-body{
+    /* border: 3px solid black; */
+    min-height: 100vh;
+    padding: 0 10rem;
+}
+
+.terms-body ul{
+    list-style-type: "- ";
+    padding: 0.5rem 5rem;
+}
+
+.terms-body ul li{
+    margin-bottom: 1rem;
+}
+
+.nested-list ul{
+    list-style-type: disc;
+    padding: 1rem 8rem;
+}
+
+.nested-list ul li{
+    margin-bottom: 0.5rem;
+}
+
+.terms-body a{
+    color: #ff8a00;
+}
+
+.terms-body a:hover{
+    text-decoration: underline;
+}
+
+
+.terms-header{
+    /* border: 1px solid red; */
+    color: #4a2c2a;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 320;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    font-size: 1.2em;
+}
+
+.terms-content-section-one{
+    /* border: 1px solid blue; */
+    margin-bottom: 2rem;
+}
+
+.terms-content-section-one p{
+    color: #333;
+}
+
+.terms-content-sections{
+    /* border: 1px solid green; */
+}
+
+.terms-content-section {
+    /* border: 1px solid red; */
+}
+
+.terms-content-section h3{
+    font-size: 1.75em;
+    color: #4a2c2a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 320;
+    margin-bottom: 1rem;
+}
+
+.terms-content-section p{
+    color: #333;
+    margin-bottom: 1.2rem;
+}
+
+.terms-container .page-header{
+    box-shadow: 1px 2px 20px #c8c8c8;
+    margin-bottom: 5rem;
+}
+
+.terms-container footer{
+    box-shadow: 1px -2px 20px #c8c8c8;
+    margin-top: 10rem;
 }

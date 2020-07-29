@@ -446,6 +446,9 @@ footer{
 
 
 /* Privacy */
+.privacy-body{
+    color: #333;
+}
 
 .privacy-date h2{
     color: #4a2c2a;
@@ -474,8 +477,9 @@ footer{
 }
 
 table{
-    border: 1px solid red;
+    color: #333;
     border-collapse: collapse;
+    font-size: 14px;
 }
 
 table tr th{
@@ -488,10 +492,24 @@ table tr td{
 }
 
 table tr th, table tr td{
-    border: 1px solid red;
+    
     padding: 1rem;
 }
 
 .table-list ol li{
+    margin-bottom: 0.5rem;
+}
+
+.table-list-style2 ol{
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.third-party-links li a{
+    color: #333;
+    text-decoration: underline;
+}
+
+.disclosure-list li{
     margin-bottom: 0.5rem;
 }

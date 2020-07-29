@@ -323,9 +323,32 @@ footer{
     padding: 0 10rem;
 }
 
+@media only screen and (max-width:720px){
+    .terms-body{
+        padding: 0 1rem;
+    }
+}
+
 .terms-body ul{
     list-style-type: "- ";
     padding: 0.5rem 5rem;
+}
+
+.terms-body ol{
+    padding: 0.5rem 5rem;
+}
+
+.terms-body ol li{
+    padding-left: 1rem;
+}
+
+@media only screen and (max-width:720px){
+    .terms-body ul{
+        padding: 0.5rem 2rem;
+    }
+    .terms-body ol{
+        padding: 1rem;
+    }
 }
 
 .terms-body ul li{
@@ -335,6 +358,12 @@ footer{
 .nested-list ul{
     list-style-type: disc;
     padding: 1rem 8rem;
+}
+
+@media only screen and (max-width:720px){
+    .nested-list ul{
+        padding: 0.5rem 3rem;
+    }
 }
 
 .nested-list ul li{
@@ -349,6 +378,12 @@ footer{
     text-decoration: underline;
 }
 
+@media only screen and (max-width:720px){
+    .terms-body a:hover{
+        text-decoration: none;
+    }
+}
+
 
 .terms-header{
     /* border: 1px solid red; */
@@ -361,10 +396,17 @@ footer{
     font-size: 1.2em;
 }
 
+@media only screen and (max-width:720px){
+    .terms-header{
+        margin-bottom: 3rem;
+    }
+}
+
 .terms-content-section-one{
     /* border: 1px solid blue; */
     margin-bottom: 2rem;
 }
+
 
 .terms-content-section-one p{
     color: #333;
@@ -394,9 +436,80 @@ footer{
 .terms-container .page-header{
     box-shadow: 1px 2px 20px #c8c8c8;
     margin-bottom: 5rem;
+    padding-bottom: 1rem;
 }
 
 .terms-container footer{
-    box-shadow: 1px -2px 20px #c8c8c8;
     margin-top: 10rem;
+    border-top: 0.2px solid #c8c8c8;
+}
+
+
+/* Privacy */
+.privacy-body{
+    color: #333;
+}
+
+.privacy-date h2{
+    color: #4a2c2a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.terms-content-section h4{
+    color: #4a2c2a;
+    margin-bottom: 1rem;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.terms-content-section h5{
+    color: #4a2c2a;
+    margin-bottom: 0.7rem;
+    font-size: 1.1em;
+    font-weight: 600;
+    
+}
+
+.privacy-nested-list li{
+    list-style-type: '-';
+}
+
+table{
+    color: #333;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+table tr th{
+    font-weight: bolder;
+    color: #4a2c2a;
+}
+
+table tr td{
+    color: #333;
+}
+
+table tr th, table tr td{
+    
+    padding: 1rem;
+}
+
+.table-list ol li{
+    margin-bottom: 0.5rem;
+}
+
+.table-list-style2 ol{
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.third-party-links li a{
+    color: #333;
+    text-decoration: underline;
+}
+
+.disclosure-list li{
+    margin-bottom: 0.5rem;
 }

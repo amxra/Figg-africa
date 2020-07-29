@@ -334,9 +334,20 @@ footer{
     padding: 0.5rem 5rem;
 }
 
+.terms-body ol{
+    padding: 0.5rem 5rem;
+}
+
+.terms-body ol li{
+    padding-left: 1rem;
+}
+
 @media only screen and (max-width:720px){
     .terms-body ul{
         padding: 0.5rem 2rem;
+    }
+    .terms-body ol{
+        padding: 1rem;
     }
 }
 
@@ -431,4 +442,56 @@ footer{
 .terms-container footer{
     margin-top: 10rem;
     border-top: 0.2px solid #c8c8c8;
+}
+
+
+/* Privacy */
+
+.privacy-date h2{
+    color: #4a2c2a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.terms-content-section h4{
+    color: #4a2c2a;
+    margin-bottom: 1rem;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.terms-content-section h5{
+    color: #4a2c2a;
+    margin-bottom: 0.7rem;
+    font-size: 1.1em;
+    font-weight: 600;
+    
+}
+
+.privacy-nested-list li{
+    list-style-type: '-';
+}
+
+table{
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+
+table tr th{
+    font-weight: bolder;
+    color: #4a2c2a;
+}
+
+table tr td{
+    color: #333;
+}
+
+table tr th, table tr td{
+    border: 1px solid red;
+    padding: 1rem;
+}
+
+.table-list ol li{
+    margin-bottom: 0.5rem;
 }

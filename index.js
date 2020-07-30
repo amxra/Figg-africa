@@ -1,5 +1,5 @@
 window.onload = function () {
-    setInterval(loadIntro, 2000)
+    setInterval(loadIntro, 1500)
 }
   
 var intros = ["businesses", "companies", "problem solvers", ]

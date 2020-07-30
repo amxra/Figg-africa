@@ -154,13 +154,14 @@ main{
 
 .banner-text h1{
     color: #ff8a00;
-    font-weight: lighter;
+    font-weight: 300;
+    min-height: 4.875rem;
 }
 
 .banner-text p{
     margin: 1rem 0;
     color: #4a2c2a;
-    font-weight: lighter;
+    font-weight: 300;
 }
 
 .banner-text button{
